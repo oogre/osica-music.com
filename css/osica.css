@@ -1,0 +1,66 @@
+#logo>.container{
+	background-image: url('../images/osica.logo.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.wrapper{
+	z-index: -10;
+	position: absolute;
+	width: 60%;
+	height: 70%;
+	top: 10%;
+	left: 20%;
+}
+
+#logo{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: 'Montserrat';	
+	margin: 0;
+	padding: 0;
+
+}
+
+nav table{
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+td{
+	width: 33%;
+}
+td a {
+	text-decoration: overline;
+}
+
+.bottom.content td a {
+	text-decoration: underline;
+}
+
+td a:visited{
+	color: #00f;
+}
+
+.bottom.content{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #00f;
+}
+
+::selection {
+    color: #fff;
+    background: #00f;
+}
